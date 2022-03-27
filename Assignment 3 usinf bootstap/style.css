@@ -1,0 +1,253 @@
+/*----------------------------------------------------------------------------------
+
+	Template Name: Portfolio Personal Website
+	Template URL: http://www.abm.com
+	Description: Personal Website
+	Author: Md. Majidul Islam
+	Author URL: http://www.ab-majid.info
+	License: GNU General Public 
+	Version: 2020.0.1
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Area
+	3. Getting Started
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+-----------------------------------------------------------------------------------*/
+
+
+/************** 1. Typography ************************/
+
+h1, 
+h2, 
+h3, 
+ 
+h5, 
+h6, 
+a, 
+p,
+ul{
+	margin: 0;
+	text-decoration: none;
+}
+p{
+	color: #848789;
+	line-height: 30px;
+	font-weight: bold;
+	font-size: 14px;
+}
+h2{
+	color: #916c02;
+	font-weight: bold;
+}
+
+body{
+	margin:0; 
+	padding: 0;
+	font-family: 'Montserrat', sans-serif !important;
+
+    font-family: 'Raleway', sans-serif !important;
+}
+/************ navr Area ************/
+i{
+	color: white;
+}
+/*This is first section*/
+.top{
+	background-color: #efebde;
+}
+.top-text {
+	color: #bea44d;
+}
+/*This is slider carosal section*/
+.text-development{
+	
+	color: #bea44d;
+}
+.carousel-caption {
+    text-align: left;
+    top: 10%;
+    float: left;
+}
+.carousel-caption h3 {
+    font-size: 70px;
+    font-weight: bold;
+    padding-bottom: 50px;
+    line-height: 100px;
+}
+.slider-pic .carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.slider-pic span {
+    background-color: #fff;
+    color: #bea44d;
+}
+/*.picture-over img{
+	position: relative;
+	z-index: 1;
+}
+.overlay{
+	background: rgba(0, 0, 0, .5);
+	width: 100%;
+	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	z-index: -1;
+}*/
+/*.caro-font-awesome ul {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 80%;
+    text-align: center;
+    margin-top: 10%;
+}*/
+.text-dark{
+	color: red;
+}
+.caro-font-awesome ul li a {
+    color: white;
+    font-size: 30px;
+}
+.social{
+	padding-top: 120px;
+}
+.social ul li p{
+	color: white;
+	font-weight: bold;
+	
+	}
+.social h4 {
+	padding-top: 10px;
+}
+
+/*This is feature secyion*/
+.content h4{
+	color: #d7b339;
+	padding-top: 15px;
+}
+.content a{
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+	color: red;
+	background-color: #f9f8f3;
+	padding: 12px 12px;
+	border: 2px solid #d7b339;
+	color:#d7b339 ;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+
+/*This is greature work section*/
+
+/*This is slide section*/
+.left-margin,
+.right-margin
+{
+	margin-top: 150px;
+}
+.angel-left a,
+.angel-right a{
+	
+	margin-top: 100px;
+	height: 20px;
+	width: 20px;
+	border-radius: 25%;
+	border: 2px solid #d7b339;
+	padding: 10px 15px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #d7b339;
+}
+.angel-right a{
+	background-color: #d7b339;
+	color: white;
+
+}
+/*This is latest work section*/
+.margin-top{
+	margin-top: 80px;
+}
+
+/*This is This is read more content section */
+
+.read-more-content h4{
+	color: #916c02;
+}
+.span{
+	font-size: 10px;
+	color: #a0acb1;
+}
+.content-read a{
+	color: #916c02;
+	font-weight: bold;
+
+}
+
+/*This form section*/
+.form-content{
+	margin-bottom: 20px;
+}
+
+.btn-right{
+	float: right;
+}
+.form-color{
+	background-color: #fffaef;
+}
+.form-content button{
+	background-color: #bea44d;
+	color: white;
+	font-size: 12px;
+}
+/*This is contact section*/
+.contact{
+	background-color: #f9edd5;
+}
+.contact-left h3{
+	color: #bea44d;
+	font-weight: bold;
+}
+.contact-left span{
+	color: #bea44d;
+}
+.contact-left a{
+	color: #bea44d;	
+}
+.contact-left .read-angel{
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	padding: 3px 4px;
+	font-size: 12px;
+	background-color: #bea44d;
+	color: white;
+	font-weight: bold;
+}
+.list-nav a{
+font-size: 12px;
+font-weight: bold;
+}
+.contact-right p{
+	font-size: 12px;
+	color: black;
+	padding-top: 10px;
+}
+/*This is footer section*/
+.footer{
+	background-color: #bea44d;
+}
+.f-text-left p{
+	color: white;
+	font-size: 12px;
+}
